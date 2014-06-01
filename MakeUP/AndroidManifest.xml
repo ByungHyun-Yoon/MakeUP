@@ -6,7 +6,8 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,45 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="계란형"
+            />
+        <activity
+            android:name=".threeActivity"
+            android:label="둥근형"
+            />
+        <activity
+            android:name=".fourActivity"
+            android:label="각진형"
+            />
+        <activity
+            android:name=".fiActivity"
+            android:label="역삼각형"
+            />
+        <activity
+            android:name=".Second1Activity"
+            android:label="역삼각형"
+            />
+        <activity
+            android:name=".Ofthree1Activity"
+            android:label="계란형"
+            />
+        <activity
+            android:name=".four1Activity"
+            android:label="각진형"
+            />
+        <activity
+            android:name=".fi1Activity"
+            android:label="역삼각형"
+            />
+        <activity android:name="s33Activity"></activity>
+        <activity android:name="s2Activity"></activity>
+        <activity android:name="s11Activity"></activity>
+        <activity android:name="s1Activity"></activity>
+        <activity android:name="s22Activity"></activity>
+        <activity android:name="s3Activity"></activity>
+        
     </application>
 
 </manifest>
