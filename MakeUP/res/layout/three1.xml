@@ -3,22 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/aea" >
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:src="@drawable/aa" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/imageView4"
-        android:src="@drawable/g" />
+    
 
     <Button
         android:id="@+id/back001"
@@ -28,39 +13,14 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:background="#00FFFFFF"
-        android:text="back" />
+        android:text="back" 
+        android:textColor="@android:color/white"/>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="추천 눈화장"
-        android:textColor="#F000FF"
-        android:textSize="30sp" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="150sp"
-        android:layout_height="270sp"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="17dp"
-        android:src="@drawable/jj" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button001"
-        android:layout_toLeftOf="@+id/textView2"
-        android:src="@drawable/gg" />
+    
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toRightOf="@+id/imageView4"
@@ -73,6 +33,6 @@
         android:layout_above="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:background="#66FF0F0F"
-        android:text="자세히 보기" />
+        android:text="buy cheap" />
 
 </RelativeLayout>

@@ -140,19 +140,19 @@ public class MainActivity extends Activity {
 		
 		///////////////////////////////À½¾Ç
 		
-		ToggleButton a = (ToggleButton) findViewById (R.id.toggleButton1);
-		CompoundButton.OnCheckedChangeListener oc = new CompoundButton.OnCheckedChangeListener() {
-			public void onCheckedChanged(CompoundButton ButtonView, boolean isChecked) {
-				if(isChecked){
-				mp = MediaPlayer.create(getApplicationContext(), R.raw.st);
-				mp.setLooping(true);
-				mp.start();
-				}
-				else{
-					mp.stop();
-				}
-			}
-		};
-		a.setOnCheckedChangeListener(oc);
+		//ToggleButton a = (ToggleButton) findViewById (R.id.toggleButton1);
+		//CompoundButton.OnCheckedChangeListener oc = new CompoundButton.OnCheckedChangeListener() {
+		//	public void onCheckedChanged(CompoundButton ButtonView, boolean isChecked) {
+		//		if(isChecked){
+		//		mp = MediaPlayer.create(getApplicationContext(), R.raw.st);
+		//		mp.setLooping(true);
+		//		mp.start();
+		//		}
+		//		else{
+		//			mp.stop();
+		//		}
+		//	}
+		//};
+		//a.setOnCheckedChangeListener(oc);
 	}
 }
