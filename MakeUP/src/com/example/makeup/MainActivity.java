@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		//·Î¼Ç Ã¢
+		
 		Button menu1=(Button) findViewById(R.id.menu1);
 		menu1.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -92,7 +92,7 @@ public class MainActivity extends Activity {
 				startActivity(intent0);
 			}
 		});
-		//½ºÅ²Ã¢
+		
 		Button menu2=(Button) findViewById(R.id.menu2);
 		menu2.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -107,7 +107,7 @@ public class MainActivity extends Activity {
 				startActivity(intent11);
 			}
 		});
-		//Æû
+		
 		Button menu3=(Button) findViewById(R.id.menu3);
 		menu3.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
@@ -122,7 +122,7 @@ public class MainActivity extends Activity {
 				startActivity(intent22);
 			}
 		});
-		//¾Ä±â
+		
 		Button menu4=(Button) findViewById(R.id.menu4);
 		menu4.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View arg0) {
