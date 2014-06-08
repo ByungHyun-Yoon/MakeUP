@@ -1,4 +1,4 @@
-package com.example.newpro;
+package com.example.makeup;
 
 import android.content.Intent;
 import android.os.Bundle;
