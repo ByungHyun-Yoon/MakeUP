@@ -29,13 +29,5 @@
         />
 
 
-    <Button
-        android:id="@+id/button001"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:layout_above="@+id/imageView1"
-        android:layout_centerHorizontal="true"
-        android:background="#66FF0F0F"
-        android:text="buy cheap" />
 
 </RelativeLayout>

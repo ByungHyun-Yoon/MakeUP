@@ -17,12 +17,6 @@ public class SecondActivity extends MainActivity {
 					finish();
 				}
 			});
-				Button menu5=(Button) findViewById(R.id.button11);
-				menu5.setOnClickListener(new View.OnClickListener() {
-					public void onClick(View arg0) {
-						Intent intent5 = new Intent(getApplicationContext(),s1Activity.class);
-						startActivity(intent5);
-					}
-				});
+			
 	}
 }
